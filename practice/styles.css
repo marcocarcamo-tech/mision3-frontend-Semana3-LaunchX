@@ -1,0 +1,318 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(182, 188, 201);
+    
+    
+}
+button {
+
+    color: white;
+    background: rgb(41, 71, 199);
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 17px;
+    margin: 5px 10px;
+}
+li{
+    list-style: none;
+}
+.header{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.658);
+    position: absolute;
+    z-index: 2;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    padding-right: 5%;
+    padding-left: 5%;
+
+}
+
+.header a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 35px;
+    color: rgb(54, 86, 212);
+}
+
+.header-ul{
+    display: flex;
+    color: rgb(182, 188, 201);
+    
+}
+.header-ul li {
+    list-style: none;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+
+}
+.main{
+    display: flex;
+    
+    contain: content;
+
+    min-width: 350px;
+    max-height: 800px;
+
+
+}
+.main h1{
+    color: rgb(31, 62, 114);
+    font-size: 60px;
+    font-weight: bolder;
+}
+.cont-image{
+    min-width: 300px;
+    
+    width: 100%;
+    object-fit: cover;
+}
+
+.container1 {
+    display: flex;
+    align-items:flex-start;
+    margin-left: 35px;
+    padding-top: 100px;
+    min-width: 300px;
+    width: 50%;
+    color: rgb(182, 188, 201);
+    
+    
+}
+.container1 div {
+    margin-top: 10%;
+    width: 60%;
+}
+.container2{
+    width: 50%;
+    height: auto;
+    
+}
+.vaccine{
+    color: rgb(182, 188, 201);
+}
+.vaccine-intro h2{
+    color: rgb(31, 62, 114);
+}
+.vacc-info{
+    
+    left: 24px;
+    top: 75%;
+    width:60%;
+    position: fixed;
+}
+.vacc-info div{
+    color: rgb(31, 62, 114);
+}
+.vacc-info form ul{
+    display: flex;
+    list-style: none;
+    
+    
+}
+.vacc-info form ul li {
+    display: flex;
+    flex-direction: column;
+}
+.vacc-form{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    padding: 10px;
+}
+.vaccine-brand{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+.vaccine-brand div{
+    width:25%;
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    
+}
+.vaccine-brand div img{
+    
+    width:100%;
+    object-fit: cover;
+    filter: grayscale(100%);
+    opacity: 0.3;
+    
+}
+.vaccine-intro {
+    width: 45%;
+    margin-left: 35px;
+}
+.vaccine-benefits{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.vaccine-benefits div{
+    margin-right: 15px;
+    height: 300px;
+    padding: 10px;
+}
+.vaccine-benefits h3 {
+    color: rgb(31, 62, 114);
+}
+.vacc-list{
+    margin-right: 10px;
+}
+.preparations{
+    display: flex;
+    min-width: 300px;
+    max-height: 700px;
+    margin-right: 10%;
+    margin-bottom: 200px;
+    color: rgb(182, 188, 201);
+}
+.preparations-container1{
+    max-height: 700px;
+    min-width: 300px;
+    width: 45%;
+}
+.preparations-cont-image{
+    min-width: 300px;
+    max-height: 700px;
+    width: 100%;
+    object-fit: cover;
+}
+.preparations-title{
+    color: rgb(31, 62, 114);
+}
+.preparations-container2{
+    width: 55%;
+    padding-left: 35px;
+    min-width: 400px;
+}
+.preparations-info{
+    width: 65%;
+}
+.preparations-module{
+    margin-bottom: 15px;
+    
+}
+
+.preparations-m1{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: rgb(31, 62, 114);
+}
+.contact{
+    display: flex;
+    color: rgb(182, 188, 201);
+}
+.contact-container1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+    
+}
+.contact-container1 h2 {
+    color: rgb(31, 62, 114);
+}
+.contact-container2{
+    width: 40%;
+}
+.contact-box-head{
+    display: flex;
+}
+.contact-grid{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: (2, 1fr);
+    grid-gap: 20px;
+    width: 100%;
+    height: 80%
+
+}
+.contact-subtitle{
+    color: rgb(31, 62, 114);
+}
+.contact-box1{
+    grid-column: 1 / 2;
+    grid-row: 1;
+    
+}
+.contact-box2{
+    grid-column: 2 / 2;
+    grid-row: 1;
+    
+}
+.contact-box3{
+    grid-column: 1 / 2;
+    grid-row: 2;
+    
+}
+.contact-box4{
+    grid-column: 2 / 2;
+    grid-row: 2;
+    
+}
+.form-control{
+    border: 0px solid;
+    height: 20px;
+    width: 160px;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(31, 62, 114);
+}
+.footer{
+    width: 90%;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 2%;
+    background:  rgb(238, 243, 255);
+}
+
+.footer-up{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    align-items: center;
+}
+
+.footer-up-goal{
+    width: 50%;
+}
+.footer-up-goal p{
+    width: 70%;
+}
+.footer-up-sections{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    
+}
+.footer-down{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.main-icon{
+    width: 15px;
+    padding: 5px;
+}
+.main-features{
+    display: flex;
+    width: 100%;
+    padding-left: 0;
+    
+}
